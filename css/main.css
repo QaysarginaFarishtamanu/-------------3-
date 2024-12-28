@@ -498,7 +498,7 @@ body {
 }
   .pricing-title{
     font-size: 50px;
-    line-height: 43px;
+    line-height: 52px;
   }
   .pricing-div-title {
     font-size: 70px;
@@ -546,6 +546,8 @@ body {
   flex-wrap: wrap;
   gap: 106px;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bookmark-div-row {
   display: flex;
@@ -566,4 +568,18 @@ body {
   line-height: 40px;
   letter-spacing: -0.5199999809265137px;
   color: white;
+}
+
+
+@media (max-width:768px) {
+  .bookmark{
+    padding-top: 74px;
+    padding-bottom: 158px;
+  }
+  .bookmark-title{
+    font-size:55px ;
+    line-height:32px ;
+    margin-bottom: 72px;
+  }
+  
 }
